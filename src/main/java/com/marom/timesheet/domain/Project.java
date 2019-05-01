@@ -9,7 +9,7 @@ import javax.persistence.*;
 public class Project {
 
     @Id
-    @GeneratedValue
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String projectCode;
     private String name;
