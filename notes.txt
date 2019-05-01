@@ -1,3 +1,7 @@
 --OneToMany relationship great explanation
 https://vladmihalcea.com/the-best-way-to-map-a-onetomany-association-with-jpa-and-hibernate/
 
+-- ManyToMany relationship explanation
+https://vladmihalcea.com/the-best-way-to-use-the-manytomany-annotation-with-jpa-and-hibernate/
+
+
