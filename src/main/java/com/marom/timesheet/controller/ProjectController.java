@@ -18,6 +18,6 @@ public class ProjectController {
     @GetMapping("/projects")
     public String getProjects(Model model) {
         model.addAttribute("projects", projectRepository.findAll());
-        return "projects";
+        return "project/listAll";
     }
 }
