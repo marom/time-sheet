@@ -11,7 +11,7 @@ import java.util.List;
 public class Employee {
 
     @Id
-    @GeneratedValue
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long employeeId;
     private Long managerEmployeeId;
     private String firstName;
