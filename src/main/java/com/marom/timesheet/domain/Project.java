@@ -3,8 +3,8 @@ package com.marom.timesheet.domain;
 import lombok.Data;
 
 import javax.persistence.*;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.HashSet;
+import java.util.Set;
 
 @Entity
 @Data
@@ -17,5 +17,5 @@ public class Project {
     private String name;
 
     @ManyToMany(mappedBy = "projects")
-    private List<Employee> employees = new ArrayList<>();
+    private Set<Employee> employees = new HashSet<>();
 }
